@@ -1,0 +1,120 @@
+/* CSS styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ababab;
+    color: white;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 28px;
+    margin: 5px 0;
+}
+
+.subtitle {
+    font-size: 14px;
+    margin: 0;
+}
+
+main {
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    text-align: center; /* Center align the form content */
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-align: left; /* Align the label text to the right */
+    margin-left: 25%; /* Add margin to separate the label from the input */
+}
+
+form input,
+form select,
+form textarea {
+    width: 50%;
+    padding: 10px;
+    margin: 0 auto 20px auto; /* Center the inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+form input[type="submit"] {
+    display: block;
+    margin: 0 auto; /* Center the submit button */
+    background-color: #a5a5a5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #004976;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Color coding for status */
+.status-pending {
+    background-color: #ff0000; /* Light Orange */
+}
+
+.status-processing {
+    background-color: #fff7a3; /* Light Blue */
+}
+
+.status-signature {
+    background-color: #56b3fb; /* Light Green */
+}
+
+.status-release {
+    background-color: #ffcdd2; /* Light Red */
+}
+
+.status-received {
+    background-color: #72b266; /* Light Yellow */
+}
+
+select {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
