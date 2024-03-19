@@ -102,6 +102,7 @@ document.getElementById('submit').addEventListener('click', (e) => {
     });
 });
 
+
 // Event listener for status change
 document.addEventListener('change', function(event) {
     if (event.target.classList.contains('statusSelect')) {
